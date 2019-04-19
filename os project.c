@@ -76,6 +76,7 @@ void main()
 	n1=n;
 	printf("\n Enter the Timeslice \n");
  	scanf("%d",&ts);
+// for next step round Robin 
  	for(i=1;i<=n;i++)
 	{
    		printf("\n Enter the process ID %d",i);
