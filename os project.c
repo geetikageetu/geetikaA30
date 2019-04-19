@@ -56,6 +56,7 @@ void main()
 		wt[i]=wt[i-1]+wt[i-1];
 		totwt=totwt+wt[i];
 	}
+//for calculating average waiting time
 	avgwt=(float)totwt/n;
 	printf("p_name\t p_time\t priority\t w_time\n");
 	for(i=0;i<n;i++)
