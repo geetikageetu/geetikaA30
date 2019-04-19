@@ -22,6 +22,7 @@ void main()
 	char p[10][5],temp[5];
 	int i,j,pt[10],wt[10],totwt=0,pr[10],temp1,n;
 	float avgwt;
+//avgwt average waiting time 
 	printf("enter no of processes:");
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
@@ -57,6 +58,7 @@ void main()
 		wt[i]=wt[i-1]+wt[i-1];
 		totwt=totwt+wt[i];
 	}
+//totwt total waiting time 
 //for calculating average waiting time
 	avgwt=(float)totwt/n;
 	printf("p_name\t p_time\t priority\t w_time\n");
