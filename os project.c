@@ -16,6 +16,7 @@ Consider: 1. Queue 2 will be processed after Queue 1 becomes empty.
 #include<stdio.h>
 #include<string.h>
 #include<conio.h>
+#include<stdlib.h>
 void main()
 {
 	char p[10][5],temp[5];
